@@ -85,7 +85,7 @@ export function CategorySelector() {
                     {categories.map(cat => {
                         if (cat?.children?.length){
                             return <Combobox.Group key={cat.id} label={cat.name}>
-                                {cat.children.map(subCat=>(
+                                {cat.children.map((subCat:any)=>(
                                     <Combobox.Option key={subCat.id} value="🥦 Broccoli">{subCat.name}</Combobox.Option>
                                 ))}
                             </Combobox.Group>
