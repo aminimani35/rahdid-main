@@ -1,0 +1,15 @@
+.imageGallery {
+    /*display: flex;*/
+    flex: 0.2;
+
+}
+
+.information {
+    flex: 1;
+}
+
+.ListItemHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

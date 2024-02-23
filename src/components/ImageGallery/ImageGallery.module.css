@@ -1,0 +1,10 @@
+.restImages{
+    display: flex;
+    gap: 0.5rem;
+}
+
+.restImages img{
+    cursor: pointer;
+    margin-top: 5px;
+    border-radius: 3px;
+}
