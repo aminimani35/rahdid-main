@@ -3,9 +3,11 @@ import {ImageGallery} from "@/components/ImageGallery";
 import {Chip, Flex, Rating, Title} from "@mantine/core";
 import {PresentsTime} from "@/components/PresentsTime";
 import {IconAlertCircle, IconBookmark, IconBug, IconLocationPin, IconPhone} from "@tabler/icons-react";
+interface ICardItemProps{
+    location:any
+}
 
-
-export const CardItem = ({location}) => {
+export const CardItem = ({location}:ICardItemProps) => {
     return (
         <Card m={5} style={{boxShadow: "0px 10px 15px -3px rgba(0,0,0,0.1)"}}>
             <Flex justify="flex-start" gap={20}>
